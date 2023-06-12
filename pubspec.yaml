@@ -29,11 +29,11 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  cloud_firestore: ^4.7.1
+  cloud_firestore: ^4.8.0 #use firebase dbs to store user info, posts, etc.
   cupertino_icons: ^1.0.2
-  firebase_auth: ^4.6.1
-  firebase_core: ^2.13.0
-  firebase_storage: ^11.2.1
+  firebase_auth: ^4.6.2 #firebase authentication, signin methods
+  firebase_core: ^2.13.1 #connection with flutter
+  firebase_storage: ^11.2.1 #stores images in our app
   flutter:
     sdk: flutter
 
